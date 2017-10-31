@@ -1,0 +1,55 @@
+URxvt.font: xft:Ubuntu Mono:size=12
+
+URxvt.urgentOnBell: true
+URxvt.scrollBar: false
+
+URxvt.letterSpace: -1
+
+URxvt.transparent: true
+URxvt.shading:30
+
+! tango color  scheme
+
+URxvt*background: #2B2B2B
+URxvt*foreground: #DEDEDE
+
+URxvt*colorUL: #86a2b0
+
+! black
+URxvt*color0  : #2E3436
+URxvt*color8  : #555753
+! red
+URxvt*color1  : #CC0000
+URxvt*color9  : #EF2929
+! green
+URxvt*color2  : #4E9A06
+URxvt*color10 : #8AE234
+! yellow
+URxvt*color3  : #C4A000
+URxvt*color11 : #FCE94F
+! blue
+URxvt*color4  : #3465A4
+URxvt*color12 : #729FCF
+! magenta
+URxvt*color5  : #75507B
+URxvt*color13 : #AD7FA8
+! cyan
+URxvt*color6  : #06989A
+URxvt*color14 : #34E2E2
+! white
+URxvt*color7  : #D3D7CF
+URxvt*color15 : #EEEEEC
+
+
+rofi.lines: 5
+rofi.width: 25
+! Enable the extended coloring options
+rofi.color-enabled: true
+
+!                  bg       border   separator
+rofi.color-window: #f2e5bc, #7c6f64, #7c6f64
+
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #f2e5bc, #3c3836, #ebdbb2, #d5c4a1, #282828
+rofi.color-active: #b57614, #f2e5bc, #b57614, #d79921, #f2e5bc
+rofi.color-urgent: #cc241d, #f2e5bc, #cc241d, #fb4934, #f2e5bc
